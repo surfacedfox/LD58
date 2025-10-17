@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{1c8358cd-6675-4e52-9bf4-05116114e8ee}">
+		<property name="name">
+			<value>CollectorFade</value>
+		</property>
+		<relationship name="folder">
+			<destination>{20bf1cae-8604-4682-86ba-6bd59cffca0d}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{39251d77-ea4c-46e0-84f7-e703035ed997}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{39251d77-ea4c-46e0-84f7-e703035ed997}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

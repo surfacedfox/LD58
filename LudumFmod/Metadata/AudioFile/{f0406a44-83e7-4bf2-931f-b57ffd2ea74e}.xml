@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{f0406a44-83e7-4bf2-931f-b57ffd2ea74e}">
+		<property name="assetPath">
+			<value>Skitter.ogg</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>108.38710416666666</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{e276f2a3-2042-4609-a0ee-c20548fb069b}</destination>
+		</relationship>
+	</object>
+</objects>

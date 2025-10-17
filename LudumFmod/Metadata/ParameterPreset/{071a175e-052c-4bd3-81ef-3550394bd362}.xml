@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{071a175e-052c-4bd3-81ef-3550394bd362}">
+		<property name="name">
+			<value>CatMoveSpeed</value>
+		</property>
+		<relationship name="folder">
+			<destination>{20bf1cae-8604-4682-86ba-6bd59cffca0d}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{aeacad09-1e40-4866-9a65-94e16da6714c}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{aeacad09-1e40-4866-9a65-94e16da6714c}">
+		<property name="maximum">
+			<value>6</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{e2b47127-51d3-4f28-9006-ddd9b3e6a90d}</destination>
+		</relationship>
+	</object>
+	<object class="SeekModulator" id="{e2b47127-51d3-4f28-9006-ddd9b3e6a90d}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>cursorPosition</value>
+		</property>
+		<property name="speedAscending">
+			<value>25</value>
+		</property>
+	</object>
+</objects>

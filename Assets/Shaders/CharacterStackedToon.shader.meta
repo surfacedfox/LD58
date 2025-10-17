@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 360281e3046f95b4cbbece11e1a3a337
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _Yarny_Albedo: {fileID: 2800000, guid: c725538797e18d942946b2e681eafe72, type: 3}
+  - _TextureStack: {fileID: 2800000, guid: a7d771b2515dd19429d7e0346a5b7212, type: 3}
+  - _Yarny_AO: {fileID: 2800000, guid: 66054de67bce21c4fb4c4e7ca1383125, type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

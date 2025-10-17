@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{3f3bf682-9740-46b5-8c87-e49201eecc2f}">
+		<property name="name">
+			<value>GameOver</value>
+		</property>
+		<relationship name="folder">
+			<destination>{20bf1cae-8604-4682-86ba-6bd59cffca0d}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{9861ead8-ea68-49d6-b659-5df82aaf97cf}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{9861ead8-ea68-49d6-b659-5df82aaf97cf}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{8237b367-0ca4-4df1-a38a-d43ea28bbf0a}</destination>
+		</relationship>
+	</object>
+	<object class="SeekModulator" id="{8237b367-0ca4-4df1-a38a-d43ea28bbf0a}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>cursorPosition</value>
+		</property>
+		<property name="speedAscending">
+			<value>0.71999996900558472</value>
+		</property>
+	</object>
+</objects>
